@@ -5,7 +5,7 @@ RUN apt-get update && \
   ffmpeg \
   wget \
   unzip \
-  curl  \
+  curl \
   python3-setuptools \
   python3-pip \
   neofetch \
