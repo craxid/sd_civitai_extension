@@ -7,6 +7,7 @@ RUN apt-get update && \
   unzip \
   curl  \
   python3 \
+  python3-pip \
   neofetch \
   net-tools \
   speedtest-cli \
