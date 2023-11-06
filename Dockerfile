@@ -6,7 +6,7 @@ RUN apt-get update && \
   wget \
   unzip \
   curl  \
-  python3 \
+  python3-setuptools \
   python3-pip \
   neofetch \
   net-tools \
