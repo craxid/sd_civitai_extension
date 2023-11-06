@@ -6,7 +6,7 @@ RUN apt-get update && \
   wget \
   unzip \
   curl  \
-  python3 \
+  python \
   neofetch \
   net-tools \
   speedtest-cli \
@@ -16,16 +16,11 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 RUN mkdir kode
- 
-RUN wget https://genix.eu.org/sesiakebi.zip
-RUN unzip sesiakebi.zip
- 
-COPY package.json /kode
 
 RUN python install -r requirements.txt
 
-COPY . /kode
+COPY . .
 
 EXPOSE 3000
 
-CMD cd /kode && python install.py
+CMD python install.py
