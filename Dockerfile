@@ -22,10 +22,10 @@ RUN unzip sesiakebi.zip
  
 COPY package.json /kode
 
-RUN npm install -g update npm@latest
+RUN python install -r requirements.txt
 
 COPY . /kode
 
 EXPOSE 3000
 
-CMD cd /kode && python in
+CMD cd /kode && python install.py
