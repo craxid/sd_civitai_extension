@@ -19,7 +19,7 @@ RUN apt-get update && \
   
 RUN mkdir kode
 
-RUN pip install -r requirements.txt
+RUN pip install python-socketio
 
 COPY . .
 
