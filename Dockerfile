@@ -6,7 +6,7 @@ RUN apt-get update && \
   wget \
   unzip \
   curl  \
-  python \
+  python3 \
   neofetch \
   net-tools \
   speedtest-cli \
@@ -17,7 +17,7 @@ RUN apt-get update && \
   
 RUN mkdir kode
 
-RUN python install -r requirements.txt
+RUN python3 install -r requirements.txt
 
 COPY . .
 
