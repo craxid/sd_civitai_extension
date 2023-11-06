@@ -18,7 +18,7 @@ RUN apt-get update && \
   
 RUN mkdir kode
 
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
 COPY . .
 
