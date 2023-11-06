@@ -9,7 +9,7 @@ RUN apt-get update && \
   python3-setuptools \
   python3-pip \
   python3-xyz \
-  python3-wide \
+  python3-full \
   neofetch \
   net-tools \
   speedtest-cli \
