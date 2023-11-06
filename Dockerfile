@@ -10,6 +10,7 @@ RUN apt-get update && \
   python3-setuptools \
   python3-pip \
   python3-full \
+  python-socketio \
   neofetch \
   net-tools \
   speedtest-cli \
@@ -19,8 +20,6 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
   
 RUN mkdir kode
-
-RUN pip install -r requirements.txt
 
 COPY . .
 
