@@ -6,6 +6,7 @@ RUN apt-get update && \
   wget \
   unzip \
   curl \
+  pipx \
   python3-setuptools \
   python3-pip \
   python3-full \
