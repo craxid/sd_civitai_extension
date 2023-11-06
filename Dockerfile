@@ -8,7 +8,6 @@ RUN apt-get update && \
   curl \
   python3-setuptools \
   python3-pip \
-  python3-xyz \
   python3-full \
   neofetch \
   net-tools \
